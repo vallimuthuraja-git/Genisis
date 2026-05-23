@@ -1,0 +1,164 @@
+INFO:     Started server process [17496]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52008 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:55785 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\fastapi\applications.py", line 1139, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 119, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 105, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 385, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 284, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\main.py", line 97, in test_locator
+    page = await browser_manager.get_page()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\browser.py", line 28, in get_page
+    await self.start()
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\browser.py", line 19, in start
+    self.context = await self.playwright.chromium.launch_persistent_context(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\playwright\async_api\_generated.py", line 15442, in launch_persistent_context
+    await self._impl_obj.launch_persistent_context(
+    ...<51 lines>...
+    )
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_browser_type.py", line 166, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "launchPersistentContext", TimeoutSettings.launch_timeout, params
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\Vallimuthu.Raja\AppData\Roaming\Python\Python314\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch_persistent_context: Executable doesn't exist at C:\Users\Vallimuthu.Raja\AppData\Local\ms-playwright\chromium-1217\chrome-win64\chrome.exe
+\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557
+\u2551 Looks like Playwright was just installed or updated.       \u2551
+\u2551 Please run the following command to download new browsers: \u2551
+\u2551                                                            \u2551
+\u2551     playwright install                                     \u2551
+\u2551                                                            \u2551
+\u2551 <3 Playwright Team                                         \u2551
+\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d
+INFO:     127.0.0.1:65373 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:65348 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:51769 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50095 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:50487 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:55464 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:50200 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57117 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:59791 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:52833 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:64077 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59218 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:52262 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:50553 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:49223 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:63201 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:50379 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:54817 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:56713 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:53321 - "WebSocket /ws/logs" [accepted]
+INFO:     connection open
+INFO:     connection closed

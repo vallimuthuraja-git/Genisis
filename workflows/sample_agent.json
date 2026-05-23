@@ -1,0 +1,26 @@
+{
+  "id": "sample_agent",
+  "name": "Sample Agent",
+  "states": [
+    {
+      "id": "start",
+      "name": "Example Page",
+      "identifiers": [
+        { "type": "text", "value": "Example Domain" }
+      ],
+      "actions": [
+        { "type": "navigate", "url": "https://example.com" },
+        { "type": "wait", "duration": 1000 }
+      ],
+      "scrapers": [
+        {
+          "name": "title",
+          "type": "text",
+          "locator": { "type": "css", "value": "h1" }
+        }
+      ],
+      "next": null,
+      "position": { "x": 120, "y": 120 }
+    }
+  ]
+}

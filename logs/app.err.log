@@ -1,0 +1,150 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import fastapi, uvicorn, playwright, pydantic
+ModuleNotFoundError: No module named 'fastapi'
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 44, in _create_truststore_ssl_context
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\truststore\__init__.py", line 31, in <module>
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\truststore\_api.py", line 20, in <module>
+ModuleNotFoundError: No module named 'pip._vendor.truststore._windows'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\utils\logging.py", line 198, in emit
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 1697, in print
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 870, in __exit__
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 826, in _exit_buffer
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 2038, in _check_buffer
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 2068, in _write_buffer
+ModuleNotFoundError: No module named 'pip._vendor.rich._windows_renderer'
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\__main__.py", line 24, in <module>
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\main.py", line 80, in main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 159, in main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 238, in _main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 107, in _run_wrapper
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 98, in _inner_run
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\req_command.py", line 85, in wrapper
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\commands\install.py", line 336, in run
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 80, in get_default_session
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 99, in _build_session
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 46, in _create_truststore_ssl_context
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1532, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1665, in _log
+    self.handle(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1681, in handle
+    self.callHandlers(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1737, in callHandlers
+    hdlr.handle(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1027, in handle
+    self.emit(record)
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\utils\logging.py", line 200, in emit
+Message: "Disabling truststore because platform isn't supported"
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 98, in _inner_run
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\req_command.py", line 85, in wrapper
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\commands\install.py", line 336, in run
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 80, in get_default_session
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 103, in _build_session
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\network\session.py", line 350, in __init__
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\network\session.py", line 175, in user_agent
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py", line 115, in get_default_environment
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py", line 97, in select_backend
+ImportError: cannot import name 'importlib' from 'pip._internal.metadata' (C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 166, in handle_pip_version_check
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 103, in _build_session
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\network\session.py", line 350, in __init__
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\network\session.py", line 175, in user_agent
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py", line 115, in get_default_environment
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py", line 97, in select_backend
+ImportError: cannot import name 'importlib' from 'pip._internal.metadata' (C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\utils\logging.py", line 198, in emit
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 1697, in print
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 870, in __exit__
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 826, in _exit_buffer
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 2038, in _check_buffer
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 2068, in _write_buffer
+ModuleNotFoundError: No module named 'pip._vendor.rich._windows_renderer'
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\__main__.py", line 24, in <module>
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\main.py", line 80, in main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 159, in main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 238, in _main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 107, in _run_wrapper
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 100, in _inner_run
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 174, in handle_pip_version_check
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1532, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1665, in _log
+    self.handle(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1681, in handle
+    self.callHandlers(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1737, in callHandlers
+    hdlr.handle(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1027, in handle
+    self.emit(record)
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\utils\logging.py", line 200, in emit
+Message: 'There was an error checking the latest version of pip.'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 107, in _run_wrapper
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 98, in _inner_run
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\req_command.py", line 85, in wrapper
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\commands\install.py", line 336, in run
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 80, in get_default_session
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\index_command.py", line 103, in _build_session
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\network\session.py", line 350, in __init__
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\network\session.py", line 175, in user_agent
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py", line 115, in get_default_environment
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py", line 97, in select_backend
+ImportError: cannot import name 'importlib' from 'pip._internal.metadata' (C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\metadata\__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\utils\logging.py", line 198, in emit
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 1697, in print
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 870, in __exit__
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 826, in _exit_buffer
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 2038, in _check_buffer
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_vendor\rich\console.py", line 2068, in _write_buffer
+ModuleNotFoundError: No module named 'pip._vendor.rich._windows_renderer'
+Call stack:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\__main__.py", line 24, in <module>
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\main.py", line 80, in main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 159, in main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 238, in _main
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 148, in _run_wrapper
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1567, in critical
+    self._log(CRITICAL, msg, args, **kwargs)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1665, in _log
+    self.handle(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1681, in handle
+    self.callHandlers(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1737, in callHandlers
+    hdlr.handle(record)
+  File "C:\Program Files\Python314\Lib\logging\__init__.py", line 1027, in handle
+    self.emit(record)
+  File "C:\Users\Vallimuthu.Raja\Documents\develope\Genisis\backend\.venv\Lib\site-packages\pip\_internal\utils\logging.py", line 200, in emit
+Message: 'Exception:'
+Arguments: ()

@@ -1,0 +1,76 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading [level=6] [ref=e140]: Genesis
+        - generic [ref=e8]:
+          - textbox [ref=e141]:
+            - /placeholder: Workflow name
+            - text: Sample Agent
+          - group
+        - generic [ref=e10]:
+          - button [ref=e142] [cursor=pointer]:
+            - img [ref=e12]
+          - button [ref=e143] [cursor=pointer]:
+            - img [ref=e15]
+          - button [ref=e144] [cursor=pointer]:
+            - img [ref=e18]
+    - generic [ref=e20]:
+      - complementary [ref=e21]:
+        - heading [level=6] [ref=e145]: Workflow States
+        - button [ref=e146] [cursor=pointer]:
+          - img [ref=e26]
+          - text: Add State
+        - list [ref=e28]:
+          - button [ref=e147] [cursor=pointer]:
+            - img [ref=e30]
+            - generic [ref=e32]:
+              - paragraph [ref=e33]: Start
+              - text: start
+            - generic [ref=e34]:
+              - generic [ref=e148]:
+                - button [disabled]:
+                  - img
+              - generic [ref=e149]:
+                - button [disabled]:
+                  - img
+              - button [ref=e150]:
+                - img [ref=e38]
+              - button [ref=e151]:
+                - img [ref=e41]
+      - complementary [ref=e43]:
+        - generic [ref=e44]:
+          - img [ref=e45]
+          - heading [level=6] [ref=e152]: Genesis
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - heading [level=6] [ref=e153]: Start
+            - text: start
+          - generic [ref=e51]:
+            - button [ref=e154] [cursor=pointer]:
+              - img [ref=e54]
+              - text: Identifier
+            - button [ref=e155] [cursor=pointer]:
+              - img [ref=e58]
+              - text: Actions
+            - button [ref=e156] [cursor=pointer]:
+              - img [ref=e62]
+              - text: Scrape
+            - button [ref=e157] [cursor=pointer]:
+              - img [ref=e66]
+              - text: Navigation
+            - button [ref=e158] [cursor=pointer]:
+              - img [ref=e70]
+              - text: Advanced
+          - separator [ref=e72]
+          - generic [ref=e133]:
+            - img [ref=e134]
+            - generic [ref=e136]: Identifier
+            - button [ref=e159] [cursor=pointer]:
+              - img [ref=e138]
+  - dialog "Load Workflow" [active] [ref=e162]:
+    - heading "Load Workflow" [level=2] [ref=e163]
+    - list [ref=e165]:
+      - button "sample_agent.json" [ref=e166] [cursor=pointer]:
+        - generic [ref=e168]: sample_agent.json
+    - button "Cancel" [ref=e170] [cursor=pointer]

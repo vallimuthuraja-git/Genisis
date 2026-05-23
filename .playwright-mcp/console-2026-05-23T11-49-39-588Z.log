@@ -1,0 +1,3 @@
+[     336ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=2050700c:14336
+[     576ms] [WARNING] WebSocket connection to 'ws://127.0.0.1:8000/ws/logs' failed: WebSocket is closed before the connection is established. @ http://127.0.0.1:5173/src/App.jsx?t=1779536863008:49
+[     655ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5173/favicon.ico:0

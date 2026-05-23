@@ -1,0 +1,11 @@
+[     199ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=2050700c:14336
+[     557ms] [WARNING] WebSocket connection to 'ws://127.0.0.1:8000/ws/logs' failed: WebSocket is closed before the connection is established. @ http://127.0.0.1:5173/src/App.jsx?t=1779536863008:49
+[     662ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5173/favicon.ico:0
+[  686438ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=2050700c:14336
+[  686649ms] [WARNING] WebSocket connection to 'ws://127.0.0.1:8000/ws/logs' failed: WebSocket is closed before the connection is established. @ http://127.0.0.1:5173/src/App.jsx?t=1779537498987:49
+[  696779ms] [ERROR] Access to fetch at 'http://127.0.0.1:8000/locators/test' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:5173/:0
+[  696780ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:8000/locators/test:0
+[  705420ms] [ERROR] Access to fetch at 'http://127.0.0.1:8000/locators/test' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:5173/:0
+[  705421ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:8000/locators/test:0
+[  709306ms] [ERROR] Access to fetch at 'http://127.0.0.1:8000/locators/test' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:5173/:0
+[  709306ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://127.0.0.1:8000/locators/test:0

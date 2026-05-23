@@ -1,0 +1,63 @@
+{
+  "id": "google_search_genesis",
+  "name": "Google Search Genesis",
+  "states": [
+    {
+      "id": "google_home",
+      "name": "Google Home",
+      "identifiers": [
+        {
+          "description": "Google Search Box Exists",
+          "type": "name",
+          "value": "q",
+          "condition": "exists"
+        }
+      ],
+      "actions": [
+        {
+          "type": "navigate",
+          "url": "https://www.google.com"
+        },
+        {
+          "type": "fill",
+          "locator": {
+            "type": "name",
+            "value": "q"
+          },
+          "value": "genesis"
+        },
+        {
+          "type": "wait",
+          "duration": 1000
+        },
+        {
+          "type": "press",
+          "locator": {
+            "type": "name",
+            "value": "q"
+          },
+          "key": "Enter"
+        }
+      ],
+      "scrapers": [
+        {
+          "name": "page_title",
+          "type": "text",
+          "locator": {
+            "type": "css",
+            "value": "title"
+          }
+        }
+      ],
+      "next": null,
+      "advanced": {
+        "timeout": 30000,
+        "retryCount": 1
+      },
+      "position": {
+        "x": 120,
+        "y": 120
+      }
+    }
+  ]
+}

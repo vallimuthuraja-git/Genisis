@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Genesis" [level=6] [ref=e171]
+      - generic [ref=e8]:
+        - textbox "Workflow name" [ref=e172]: Sample Agent
+        - group
+      - generic [ref=e10]:
+        - button "Run workflow" [ref=e173] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Save workflow" [ref=e174] [cursor=pointer]:
+          - img [ref=e15]
+        - button "Load workflow" [active] [ref=e175] [cursor=pointer]:
+          - img [ref=e18]
+  - generic [ref=e20]:
+    - complementary [ref=e21]:
+      - heading "Workflow States" [level=6] [ref=e176]
+      - button "Add State" [ref=e177] [cursor=pointer]:
+        - img [ref=e26]
+        - text: Add State
+      - list [ref=e28]:
+        - button "Example Page start Move up Move down Duplicate Delete" [ref=e178] [cursor=pointer]:
+          - img [ref=e30]
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Example Page
+            - text: start
+          - generic [ref=e34]:
+            - generic "Move up" [ref=e179]:
+              - button [disabled]:
+                - img
+            - generic "Move down" [ref=e180]:
+              - button [disabled]:
+                - img
+            - button "Duplicate" [ref=e181]:
+              - img [ref=e38]
+            - button "Delete" [ref=e182]:
+              - img [ref=e41]
+    - complementary [ref=e43]:
+      - generic [ref=e44]:
+        - img [ref=e45]
+        - heading "Genesis" [level=6] [ref=e183]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Example Page" [level=6] [ref=e184]
+          - text: start
+        - generic [ref=e51]:
+          - button "Identifier" [ref=e185] [cursor=pointer]:
+            - img [ref=e54]
+            - text: Identifier
+          - button "Actions" [ref=e186] [cursor=pointer]:
+            - img [ref=e58]
+            - text: Actions
+          - button "Scrape" [ref=e187] [cursor=pointer]:
+            - img [ref=e62]
+            - text: Scrape
+          - button "Navigation" [ref=e188] [cursor=pointer]:
+            - img [ref=e66]
+            - text: Navigation
+          - button "Advanced" [ref=e189] [cursor=pointer]:
+            - img [ref=e70]
+            - text: Advanced
+        - separator [ref=e72]
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - img [ref=e134]
+            - generic [ref=e136]: Identifier
+            - button "Add Identifier" [ref=e190] [cursor=pointer]:
+              - img [ref=e138]
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - generic: Description
+                - generic [ref=e194]:
+                  - textbox "Description" [ref=e195]
+                  - group:
+                    - generic: Description
+              - generic [ref=e196]:
+                - generic [ref=e197]: Condition
+                - generic [ref=e198]:
+                  - combobox [ref=e199] [cursor=pointer]: exists
+                  - textbox: exists
+                  - img
+                  - group:
+                    - generic: Condition
+              - button "Delete identifier" [ref=e200] [cursor=pointer]:
+                - img [ref=e201]
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: Locator
+                - generic [ref=e206]:
+                  - combobox [ref=e207] [cursor=pointer]: text
+                  - textbox: text
+                  - img
+                  - group:
+                    - generic: Locator
+              - generic [ref=e208]:
+                - generic [ref=e209]: Value
+                - generic [ref=e210]:
+                  - textbox "Value" [ref=e211]: Example Domain
+                  - group:
+                    - generic: Value
+              - button "Test locator" [ref=e212] [cursor=pointer]:
+                - img [ref=e213]

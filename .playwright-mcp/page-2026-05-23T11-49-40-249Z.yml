@@ -1,0 +1,67 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Genesis" [level=6] [ref=e6]
+      - generic [ref=e8]:
+        - textbox "Workflow name" [ref=e9]: Sample Agent
+        - group
+      - generic [ref=e10]:
+        - button "Run workflow" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Save workflow" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - button "Load workflow" [ref=e17] [cursor=pointer]:
+          - img [ref=e18]
+  - generic [ref=e20]:
+    - complementary [ref=e21]:
+      - heading "Workflow States" [level=6] [ref=e23]
+      - button "Add State" [ref=e24] [cursor=pointer]:
+        - img [ref=e26]
+        - text: Add State
+      - list [ref=e28]:
+        - button "Start start Move up Move down Duplicate Delete" [ref=e29] [cursor=pointer]:
+          - img [ref=e30]
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Start
+            - text: start
+          - generic [ref=e34]:
+            - generic "Move up" [ref=e35]:
+              - button [disabled]:
+                - img
+            - generic "Move down" [ref=e36]:
+              - button [disabled]:
+                - img
+            - button "Duplicate" [ref=e37]:
+              - img [ref=e38]
+            - button "Delete" [ref=e40]:
+              - img [ref=e41]
+    - complementary [ref=e43]:
+      - generic [ref=e44]:
+        - img [ref=e45]
+        - heading "Genesis" [level=6] [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Start" [level=6] [ref=e50]
+          - text: start
+        - generic [ref=e51]:
+          - button "Identifier" [ref=e52] [cursor=pointer]:
+            - img [ref=e54]
+            - text: Identifier
+          - button "Actions" [ref=e56] [cursor=pointer]:
+            - img [ref=e58]
+            - text: Actions
+          - button "Scrape" [ref=e60] [cursor=pointer]:
+            - img [ref=e62]
+            - text: Scrape
+          - button "Navigation" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]
+            - text: Navigation
+          - button "Advanced" [ref=e68] [cursor=pointer]:
+            - img [ref=e70]
+            - text: Advanced
+        - separator [ref=e72]
+        - generic [ref=e74]:
+          - img [ref=e75]
+          - generic [ref=e77]: Identifier
+          - button "Add Identifier" [ref=e78] [cursor=pointer]:
+            - img [ref=e79]
